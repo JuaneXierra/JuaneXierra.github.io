@@ -1,0 +1,47 @@
+nav {
+    background-color: #ffffff; 
+    height: 50px;
+  }
+  
+  nav {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 260ch; 
+    animation: typing 2s steps(32), brink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0}
+
+
+}
+@keyframes blink {
+    50% {border-color: gold}
+    
+
+}
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: #444444; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #CCCCCC; 
+  }
